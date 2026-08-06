@@ -1,0 +1,39 @@
+# ==============================
+# Multi-Agent Explainable AI Business Intelligence System for MSMEs
+
+# Requirements
+
+# ==============================
+
+# Data Processing
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+# Database
+sqlalchemy
+
+# Backend API
+fastapi
+uvicorn
+
+# PDF Invoice Generation
+reportlab
+
+# Data Visualization
+matplotlib
+plotly
+
+# Jupyter Notebook
+notebook
+ipykernel
+
+# Utility
+python-dotenv
+
+# Optional (Future Expansion)
+streamlit
