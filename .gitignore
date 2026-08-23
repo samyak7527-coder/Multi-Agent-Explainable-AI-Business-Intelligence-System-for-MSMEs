@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# Database (don't commit live data)
+business_ai.db
+
+# Generated files
+*.pdf
+invoices/
+
+# Editor
+.vscode/
