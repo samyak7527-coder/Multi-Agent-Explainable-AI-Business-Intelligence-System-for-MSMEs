@@ -1,0 +1,4 @@
+SHAP generated for candidate model: Gradient Boosting (tuned)
+Candidate holdout MAE: 53177.6987
+Overall selected forecasting strategy: Naive Baseline
+If the overall strategy is the naive baseline, these plots explain the tree candidate, not the deployed forecast strategy.
