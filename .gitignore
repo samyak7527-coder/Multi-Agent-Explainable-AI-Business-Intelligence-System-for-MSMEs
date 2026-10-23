@@ -26,4 +26,8 @@ python -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
 Run Frontend : 
 cd frontend/Cashier
+<<<<<<< HEAD
 npm run dev
+=======
+npm run dev
+>>>>>>> fd90af5b2446d050dd99d2fa1bb798ae0eae51a7

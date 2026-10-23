@@ -69,7 +69,11 @@ export const ForecastingView = () => {
             {getGreeting()}
           </h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-md mx-auto font-sans font-light leading-relaxed">
+<<<<<<< HEAD
+            Ask InsightIQ to forecast demand trends, optimize inventory, or uncover cost optimizations.
+=======
             Ask BizAI to forecast demand trends, optimize inventory, or uncover cost optimizations.
+>>>>>>> fd90af5b2446d050dd99d2fa1bb798ae0eae51a7
           </p>
         </motion.div>
 
@@ -180,7 +184,11 @@ export const ForecastingView = () => {
 
       {/* Footer Branding */}
       <div className="absolute bottom-4 text-center text-[11px] text-slate-500 font-medium">
+<<<<<<< HEAD
+        InsightIQ Predictive Engine v1.0 • Frontend Interface Preview
+=======
         BizAI Predictive Engine v1.0 • Frontend Interface Preview
+>>>>>>> fd90af5b2446d050dd99d2fa1bb798ae0eae51a7
       </div>
     </motion.div>
   );
