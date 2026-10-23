@@ -200,11 +200,11 @@ def customer_agent(customer_data):
 
         "agent": "customer",
 
+        "status": churn_status,
+
         "prediction": {
 
             "churn": int(prediction),
-
-            "churn_status": churn_status,
 
             "churn_probability": round(
                 float(probability),
@@ -243,7 +243,7 @@ if __name__ == "__main__":
 
         "avg_review_score": 4.0,
 
-        "recency_days": 71,
+        "recency_days": 120,
 
         "purchase_frequency": 0.05,
 

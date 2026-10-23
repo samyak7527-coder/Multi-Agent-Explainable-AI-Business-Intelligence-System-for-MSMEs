@@ -55,7 +55,7 @@ const groupOrdersById = (rows) => {
 
 export const DashboardView = () => {
   const { user } = useAuth();
-  const businessName = user?.business_name || 'BizAI Enterprise';
+  const businessName = user?.business_name || 'InsightIQ Enterprise';
 
   const [totalOrders, setTotalOrders] = useState(0);
   const [grossProfit, setGrossProfit] = useState(null);

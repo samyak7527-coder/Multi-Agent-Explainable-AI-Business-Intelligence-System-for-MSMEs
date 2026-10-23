@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext';
 export const CashierSidebar = ({ activeNav, setActiveNav }) => {
   const { user, logoutUser } = useAuth();
 
-  const businessName = user?.business_name || 'BizAI Enterprise';
+  const businessName = user?.business_name || 'InsightIQ Enterprise';
   const fullName = user?.full_name || user?.username || 'Cashier User';
 
   const navItems = [

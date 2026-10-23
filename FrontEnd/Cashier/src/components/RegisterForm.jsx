@@ -36,7 +36,7 @@ export const RegisterForm = ({ onSwitchToLogin, onSuccessMessage }) => {
         username: username.trim(),
         password: password.trim(),
         full_name: fullName.trim(),
-        business_name: businessName.trim() || 'BizAI Enterprise',
+        business_name: businessName.trim() || 'InsightIQ Enterprise',
         phone_number: phoneNumber.trim() || undefined,
         role: role, // "Cashier" or "Admin"
       };
@@ -68,7 +68,7 @@ export const RegisterForm = ({ onSwitchToLogin, onSuccessMessage }) => {
         </button>
         <div>
           <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Create Account</h2>
-          <p className="text-sm text-slate-500">Join BizAI to empower your business operations</p>
+          <p className="text-sm text-slate-500">Join InsightIQ to empower your business operations</p>
         </div>
       </div>
 

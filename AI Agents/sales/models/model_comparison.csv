@@ -1,0 +1,8 @@
+model,mae,rmse,r2,wape_percent,best_params
+Naive Baseline,41955.7194,56829.4443,0.4953,22.3903,
+Linear Regression,98784.6908,120610.7745,-1.2735,52.7178,
+Decision Tree,62610.1872,70382.5296,0.2258,33.4128,
+Random Forest,53515.6498,64871.2655,0.3423,28.5594,
+Gradient Boosting,53996.6398,62560.9192,0.3883,28.8161,
+Random Forest (tuned),53852.0364,66101.3295,0.3171,28.7389,"{'max_depth': None, 'min_samples_leaf': 2, 'n_estimators': 100}"
+Gradient Boosting (tuned),53177.6987,64342.2411,0.353,28.379,"{'learning_rate': 0.1, 'max_depth': 2, 'n_estimators': 100}"

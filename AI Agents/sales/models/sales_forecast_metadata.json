@@ -1,0 +1,42 @@
+{
+  "features": [
+    "year",
+    "month",
+    "week",
+    "weekly_revenue",
+    "weekly_orders",
+    "avg_order_value",
+    "holiday_flag",
+    "festival_flag",
+    "discount_percentage",
+    "revenue_lag_1",
+    "revenue_lag_2",
+    "revenue_lag_3",
+    "orders_lag_1",
+    "orders_lag_2",
+    "orders_lag_3",
+    "rolling_revenue_4w",
+    "rolling_orders_4w"
+  ],
+  "target": "target_next_week_revenue",
+  "selected_model": "Naive Baseline",
+  "selected_is_baseline": true,
+  "test_metrics": {
+    "mae": 41955.7194,
+    "rmse": 56829.4443,
+    "r2": 0.4953,
+    "wape_percent": 22.3903
+  },
+  "training_rows": 88,
+  "train_rows_before_holdout": 70,
+  "test_rows": 18,
+  "data_first_year_week": [
+    2016,
+    51
+  ],
+  "data_last_year_week": [
+    2018,
+    35
+  ],
+  "note": "Confidence returned by API is a heuristic derived from holdout WAPE, not a calibrated probability. Forecast horizon is one week."
+}
