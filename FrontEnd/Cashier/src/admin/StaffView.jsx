@@ -32,7 +32,11 @@ const MONTH_NAMES = [
 
 export const StaffView = () => {
   const { user } = useAuth();
+<<<<<<< HEAD
   const businessName = user?.business_name || 'InsightIQ Enterprise';
+=======
+  const businessName = user?.business_name || 'BizAI Enterprise';
+>>>>>>> fd90af5b2446d050dd99d2fa1bb798ae0eae51a7
 
   const [financeRecords, setFinanceRecords] = useState([]);
   const [currentCosts, setCurrentCosts] = useState({

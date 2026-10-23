@@ -106,7 +106,11 @@ export const LoginPage = ({ onSuccessToast }) => {
             </div>
             <div>
               <span className="text-2xl font-black tracking-tight bg-gradient-to-r from-white via-slate-100 to-orange-200 bg-clip-text text-transparent">
+<<<<<<< HEAD
                 Insight<span className="text-[#f2643a]">IQ</span>
+=======
+                Biz<span className="text-[#f2643a]">AI</span>
+>>>>>>> fd90af5b2446d050dd99d2fa1bb798ae0eae51a7
               </span>
               <span className="block text-[10px] uppercase font-bold tracking-widest text-slate-400">
                 Business Intelligence
@@ -116,7 +120,11 @@ export const LoginPage = ({ onSuccessToast }) => {
 
           <button
             type="button"
+<<<<<<< HEAD
             onClick={() => alert("InsightIQ empowers Micro, Small & Medium Enterprises (MSMEs) with predictive sales forecasting, automated inventory optimization, financial analytics, and customer behavior insights.")}
+=======
+            onClick={() => alert("BizAI empowers Micro, Small & Medium Enterprises (MSMEs) with predictive sales forecasting, automated inventory optimization, financial analytics, and customer behavior insights.")}
+>>>>>>> fd90af5b2446d050dd99d2fa1bb798ae0eae51a7
             className="hidden sm:flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs text-slate-200 hover:bg-white/20 transition-all shadow-sm"
           >
             <span>Learn More</span>
@@ -132,7 +140,11 @@ export const LoginPage = ({ onSuccessToast }) => {
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.15] text-white">
+<<<<<<< HEAD
             Welcome to <span className="bg-gradient-to-r from-orange-400 via-pink-400 to-purple-300 bg-clip-text text-transparent">InsightIQ</span>
+=======
+            Welcome to <span className="bg-gradient-to-r from-orange-400 via-pink-400 to-purple-300 bg-clip-text text-transparent">BizAI</span>
+>>>>>>> fd90af5b2446d050dd99d2fa1bb798ae0eae51a7
           </h1>
 
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed font-normal">
@@ -161,7 +173,11 @@ export const LoginPage = ({ onSuccessToast }) => {
 
         {/* Footer info inside Left Panel */}
         <div className="relative z-10 text-xs text-slate-500 pt-4 border-t border-white/10 flex items-center justify-between">
+<<<<<<< HEAD
           <span>&copy; 2026 InsightIQ Technologies</span>
+=======
+          <span>&copy; 2026 BizAI Technologies</span>
+>>>>>>> fd90af5b2446d050dd99d2fa1bb798ae0eae51a7
           <span className="text-[11px] text-slate-400">Connected to FastAPI: localhost:8000</span>
         </div>
       </div>
@@ -180,7 +196,11 @@ export const LoginPage = ({ onSuccessToast }) => {
             <div className="space-y-6">
               {/* Header */}
               <div>
+<<<<<<< HEAD
                 <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Sign In to InsightIQ</h2>
+=======
+                <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Sign In to BizAI</h2>
+>>>>>>> fd90af5b2446d050dd99d2fa1bb798ae0eae51a7
                 <p className="text-sm text-slate-500 mt-1">Select your role and enter your credentials</p>
               </div>
 
