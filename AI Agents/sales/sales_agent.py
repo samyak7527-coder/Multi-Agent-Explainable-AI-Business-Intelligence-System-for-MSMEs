@@ -84,7 +84,7 @@ def sales_agent(query: str) -> dict:
         "query": query.strip(),
         "prediction": {"metric": "revenue", "value": round(prediction, 2)},
         "confidence": reliability,
-        "confidence_type": "heuristic_from_holdout_wape_not_a_probability",
+        "confidence_type": "heuristic_from_.oldout_wape_not_a_probability",
         "unit": "INR",
         "period": period,
         "forecast_horizon": "one_week",
